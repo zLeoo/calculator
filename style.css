@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #B8B8B8;
+}
+
+
+.container{  
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 352px;
+    height: 635px;
+    background-color: #22252D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px ;
+    
+}
+
+.calculator.light{
+    background-color: #ffffff;
+}
+
+.mode{
+    width: 83px;
+    height: 34px;
+    align-self: center;
+    background-color: #292D36;
+    margin-top: 16px;
+    margin-bottom: 62px ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#moon{
+    margin-left:12px ;
+}
+
+.mode.light #moon path{
+    fill: #D9DBE3;
+}
+
+#sun{
+    margin-right:12px ;
+}
+
+.mode.light #sun path{
+    fill: #2A2E37;
+}
+
+.mode.light{
+    background-color: #F7F7F7;
+}
+
+
+
+
+
+.bar{
+    width: 1px;
+    height: 21px;
+    background-color: #4A4C4F;
+}
+
+.bar.light{
+    background-color: #EBECF0;
+}
+
+
+.display-container{
+    align-self: flex-end;
+    margin-right: 32px ;
+    color: white;
+    
+}
+
+.display-container.light{
+    color: #2A2E37;
+}
+
+.display{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.count{
+    font-size: 18px;
+    font-weight: 500;
+    height: 20px;
+    
+}
+.result{
+    font-size: 64px ;
+    
+}
+
+.buttons-container{
+    background-color: #292D36 ;
+    height: 418px;
+    width: 352px;
+    border-radius: 30px 30px 15px 15px;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.buttons-container.light{
+    background-color: #F7F7F7 ;
+}
+
+
+.button{
+    width: 60px;
+    height: 58px;
+    background-color: #22292D;
+    border-radius: 16px ;
+    color: white;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px rgba(0,0,0,0.25);
+    
+}
+
+.button.light{  
+    background-color: #F5F5F5 ;
+    color:#2A2E37 ;
+    
+
+}
+
+
+
+
+
+
+
